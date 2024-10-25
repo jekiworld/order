@@ -1,6 +1,7 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
 import Home from './page/Home/Home'
+import Sign_up from './page/Sign_up/Sign_up';
 
 
 function App() {
@@ -9,6 +10,10 @@ function App() {
     {
       path: "/",
       element: <Home />
+    },     
+    {
+      path: "/sign_up",
+      element: <Sign_up/>
     }
   ]);
 

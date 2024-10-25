@@ -1,0 +1,214 @@
+@font-face {
+    font-family: 'Excon';
+    src: url('./fonts/Excon-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Excon';
+    src: url('./fonts/Excon-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Excon';
+    src: url('./fonts/Excon-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Excon';
+    src: url('./fonts/Excon-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Excon';
+    src: url('./fonts/Excon-Black.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Excon';
+    src: url('./fonts/Excon-Thin.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+.custom-text {
+    font-family: 'MyCustomFont', sans-serif;
+}
+
+
+.signup-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-top: 33px;
+    text-align: center;
+    font-family: 'Excon', sans-serif; 
+       display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    /* border: #666 solid; */
+  }
+  
+  .logo {
+    
+    align-self: flex-start;
+    margin-bottom: 62px; 
+    
+  }
+  
+  .signup-title {
+    font-size: 32px; 
+    line-height: 40px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    display: flex;
+    font-weight:bolder;
+    
+  }
+  
+  .signup-subtitle {
+    font-size: 16px;
+    color: black;
+    margin-bottom: 24px;
+    display: flex;
+  
+  }
+  
+  .google-signin-button {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+  }
+  
+  .google-icon {
+    margin-right: 8px;
+  }
+  
+  .divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 7px;
+    margin-bottom: 30px;
+  }
+  
+  .divider::before,
+  .divider::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #ddd;
+    margin: 0 10px;
+  }
+  
+  .divider span {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+    color: black;
+
+  }
+
+  .input-container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .signup-input {
+    width: 100%;
+    /* padding-left: 40px; */
+    padding: 15px 15px 15px 40px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    border: none;
+    box-sizing: border-box;
+  }
+
+  .input-icon {
+    position: absolute;
+    top:55%;
+    left: 10px; 
+    transform: translateY(-100%);
+    width: 20px;
+    height: 20px;
+    pointer-events: none; 
+  }
+
+  .signup-input::placeholder {
+    color: #000;
+    opacity: 1;
+    
+  }
+  
+  
+  .signup-input::-webkit-input-placeholder {
+    color: #000; 
+  }
+  
+  .signup-input::-moz-placeholder {
+    color: #000; 
+  }
+  
+  .signup-input:-ms-input-placeholder {
+    color: #000; 
+  }
+  
+  .signup-input:-moz-placeholder {
+    color: #000; 
+  }
+
+  .signup-input::placeholder {
+    color: rgb(0, 0, 0);
+  }
+  
+  .checkbox-label {
+    font-size: 14px;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .link {
+    color: rgb(55,200,102);
+    text-decoration: none;
+  }
+  
+  .signup-button {
+    padding: 16px 40px;   background-color: #36c857;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .signup-footer {
+    margin-top: 20px;
+    font-size: 14px;
+
+}
+  
