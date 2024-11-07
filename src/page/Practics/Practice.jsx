@@ -2,21 +2,20 @@ import React, { useState } from 'react'
 
 export default function Practice() {
 
-    const [count, setCount] = useState(0);
+    const [name, setName] = useState('');
 
-    const handlePlus = () => {
-        setCount(count + 1);
+    const handleChange = (event) => {
+        setName(event.target.value)
     }
 
-    const handleMinus = () => {
-        setCount(count - 1);
+    const handleClick = () =>{
+        alert(`Hello ${name}`)
     }
-
+   
     return (
         <div>
-            <button onClick={handlePlus}>+</button>
-            <p>Value: {count}</p>
-            <button onClick={handleMinus}>-</button>
+            <input type="text" value = {name} onChange={handleChange} placeholder='enter name' />
+            <button onClick={handleClick}>click</button>
         </div>
     )
 }
