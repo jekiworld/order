@@ -5,6 +5,7 @@ import Sign_up from './page/Sign_up/Sign_up';
 import Todo from './page/TodoList/Todo'
 import Practice from './page/Practics/Practice';
 import Weather from './page/Wheather/Weather';
+import Cube from './page/Cube/Cube';
 
 
 function App() {
@@ -29,6 +30,10 @@ function App() {
     {
       path: "/weather/",
       element: <Weather/>
+    },
+    {
+      path: "/Cube/",
+      element: <Cube/>
     }
   ]);
 

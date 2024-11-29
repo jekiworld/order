@@ -41,6 +41,7 @@ export default function Weather() {
         <div>
           <p>Country: {info.location.country}</p>
           <p>City: {info.location.name}</p>
+          <p></p>
         </div>
       )
       }
